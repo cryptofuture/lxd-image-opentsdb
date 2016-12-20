@@ -23,4 +23,5 @@ Image based on [xenial-light](https://github.com/cryptofuture/lxd-image-xenial-l
 
 ## Updates
 `unattended-upgrades` configured for auto updates when applicable.  
-Basically all you may need to update manually will be OpenTSDB, since there no repository or PPA available yet. Use deb package from [releases page](https://github.com/OpenTSDB/opentsdb/releases)
+Basically all you may need to update manually will be OpenTSDB, since there no repository or PPA available yet.  
+Use deb package from [releases page](https://github.com/OpenTSDB/opentsdb/releases).
