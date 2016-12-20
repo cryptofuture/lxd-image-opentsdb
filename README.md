@@ -2,7 +2,7 @@
 ###### Image with OpenTSDB for use with lxc/lxd
 
 ## Import
-* Download [opentsdb.tar.gz](https://github.com/cryptofuture/lxd-image-opentsdb/master/opentsdb.tar.gz)
+* Download [opentsdb.tar.gz](https://github.com/cryptofuture/lxd-image-opentsdb/raw/master/opentsdb.tar.gz)
 * Check sha256sum with `sha256sum opentsdb.tar.gz`
 
 ```bash
