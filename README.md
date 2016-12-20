@@ -22,4 +22,5 @@ Image based on [xenial-light](https://github.com/cryptofuture/lxd-image-xenial-l
 * [Grafana](http://grafana.org/) installed from [apt repository](http://docs.grafana.org/installation/debian/) and opentsdb configured as [Data Source](http://docs.grafana.org/datasources/opentsdb/)
 
 ## Updates
-unattended-upgrades configured for auto updates when applicable. Basically all you may need to update manually will be OpenTSDB, since there no repository or PPA available yet. Use deb package from [releases page](https://github.com/OpenTSDB/opentsdb/releases)
+`unattended-upgrades` configured for auto updates when applicable.  
+Basically all you may need to update manually will be OpenTSDB, since there no repository or PPA available yet. Use deb package from [releases page](https://github.com/OpenTSDB/opentsdb/releases)
