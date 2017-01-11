@@ -25,3 +25,7 @@ Image based on [xenial-light](https://github.com/cryptofuture/lxd-image-xenial-l
 `unattended-upgrades` configured for auto updates when applicable.  
 Basically all you may need to update manually will be OpenTSDB, since there no repository or PPA available yet.  
 Use deb package from [releases page](https://github.com/OpenTSDB/opentsdb/releases).
+
+## Testing/using it with [netdata](https://github.com/firehol/netdata)
+Add `opentsdb` to `/etc/hosts`, like: `127.0.0.1	localhost opentsdb`
+Add `tsd.core.auto_create_metrics = true` to OpenTSDB config
